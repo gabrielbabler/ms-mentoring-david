@@ -1,0 +1,2 @@
+INSERT INTO user (id, name, nick_name, age, cpf, phone, gender) VALUES (1, "Gabriel", "Babler", 25, "12345678912", null, "MASCULINO");
+INSERT INTO user (id, name, nick_name, age, cpf, phone, gender) VALUES (2, "David", "Gonçalves", 32, "12345678917", "123456789", null);

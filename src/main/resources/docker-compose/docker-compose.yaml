@@ -1,0 +1,18 @@
+version: '3'
+services:
+  db:
+    container_name: db_david
+    image: mysql:8
+    restart: always
+    environment:
+      MYSQL_DATABASE: cadastro
+      MYSQL_ROOT_PASSWORD: root
+    ports:
+      - '3306:3306'
+    expose:
+      - '3306'
+    volumes:
+      - db_david:/var/lib/mysql
+
+volumes:
+  db_david:
