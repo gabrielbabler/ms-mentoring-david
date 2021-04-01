@@ -1,0 +1,10 @@
+CREATE TABLE user (
+    id INT NOT NULL AUTO_INCREMENT,
+    name VARCHAR(100) NOT NULL,
+    nick_name VARCHAR(50) NOT NULL,
+    age INT NOT NULL,
+    cpf VARCHAR(11) NOT NULL UNIQUE,
+    phone VARCHAR(20),
+    gender VARCHAR(20),
+    PRIMARY KEY (id)
+);
